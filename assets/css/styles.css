@@ -294,7 +294,7 @@ a:hover {
 p {
   font-size: 1.4em;
   line-height: 1.6em;
-  color: #2d2d2d;
+  color: #4a4a4a;
   margin: 0 0 20px;
   padding: 0;
 }
@@ -869,35 +869,16 @@ ol li > ol > li > ol > li > ol {
   margin: 0;
   padding: 0;
 }
-/****** SAMPLES ******/
-.box {
-  background: #183756;
-  color: #bebec5;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.3);
+/****** MAIN ******/
+#main {
+  width: 725px;
+  float: left;
 }
-.box header {
-  margin: 0 0 10px;
-  padding: 10px;
-  border-bottom: 1px solid #dedede;
+/****** SIDEBAR ******/
+#sidebar-first {
+  width: 235px;
+  float: left;
 }
-.box footer.spacer {
-  padding: 60px 0;
-}
-.inline-box {
-  background: #0a8adb;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  _height: 25px;
-  color: #1a1a1a;
-  text-decoration: underline;
-}
-/****** GENERAL ******/
 /******HEADER******/
 #site-header {
   width: 980px;

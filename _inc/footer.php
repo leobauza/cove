@@ -1,3 +1,6 @@
+	<section class="pre-footer container">
+		Call Us 1-888-552-8538
+	</section>
 	<footer id="site-footer" class="container-alt">
 		<div class="inner">
 			<section class="main-footer">

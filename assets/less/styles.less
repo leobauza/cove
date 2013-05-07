@@ -76,7 +76,7 @@ a:hover {
 p {
 	font-size:1.4em;
 	line-height:1.6em;
-	color:@dark-gray;
+	color:@type;
 	margin: 0 0 20px;
 	padding:0;
 }
@@ -570,31 +570,22 @@ ol {
 	}
 }
 
-
-
-
-/****** SAMPLES ******/
-.box {
-	background:@bg-colour-two;
-	color:@mid-gray;
-	#CSS3 > .border-radius(10px);
-	#CSS3 > .box-shadow();
-	header {
-		.marpad(0 0 10px, 10px);
-		border-bottom:1px solid @light-gray;
-	}
-	footer.spacer {
-		padding: 60px 0;
-	}
+/****** MAIN ******/
+#main {
+	width:735px - 10px;
+	float:left;
 }
-.inline-box {
-	background:@brand;
-	.inline-block(25px);
-	.adjust-colour(dark, #333);
+.homepage-box {
+	
 }
-/****** GENERAL ******/
-
-
+/****** SIDEBAR ******/
+#sidebar-first {
+	width:@site-width - 735px - 10px;
+	float:left;
+}
+.sidebar-box {
+	
+}
 /******HEADER******/
 #site-header {
 	width:@site-width;
