@@ -87,9 +87,31 @@
 
 /****** Container ******/
 .container {
-	width:@site-width - 20px;
-	padding:20px 10px;
 	margin:0 auto;
+	width:@site-width + 20px;
+	/* -moz-box-shadow: 0px 0px 20px 0px #c7c7c7, 0px 0px 20px -20px #c7c7c7;
+	-webkit-box-shadow: 0px 0px 20px 0px #c7c7c7, 0px 0px 20px -20px #c7c7c7;
+	box-shadow: 0px 0px 20px 0px #c7c7c7, 0px 0px 20px -20px #c7c7c7; */
+}
+.container-main {
+	width:@site-width - 20px;
+	padding: 20px 20px 0px 20px;
+	margin:0 auto;
+	background: #fff;
+	border-bottom: 1px solid #ff4f00;
+}
+.container-header {
+	width:@site-width - 20px;
+	padding: 0 20px;
+	margin:0 auto;
+	background: #fff;
+}
+.container-hero {
+	width:@site-width + 20px;
+	height: 287px;
+	padding: 0px;
+	margin:0 auto;
+	background: #fff;
 }
 .container-alt {
 	background:@bg-colour-two;
@@ -351,7 +373,7 @@ footer,
 .group,
 .form-group,
 .input-group,
-[class*="-group"] {
+[class*="-group"], pre-footer, .thankyou-box, #contact-inner, #contact-inner2, section.purchase-price, .calculations, .cash-down {
 	zoom:1;
 	&:before {
 		display: table;
